@@ -32,11 +32,11 @@ metadata: full_metadata
 ##########
 # ORGANIZATION SETTINGS
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: Catherine Frank
+organization-link: 
 
-organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png
-organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
+organization-logo-banner: 
+organization-logo-nav: 
 
 ##########
 # BUILD SETTINGS
