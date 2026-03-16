@@ -8,31 +8,26 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
-# path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+url: https://catherinefrank101.github.io
+# path to location on the domain if necessary
+baseurl: /punk-war-on-the-boulevard
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/catherinefrank101/punk-war-on-the-boulevard
 
 ##########
 # SITE SETTINGS
 #
-# title of site appears in banner
-title: My Digital Collection
-# tagline, a short phrase that will appear throughout the site in the top banner
+title: Punk War on the Boulevard
 tagline: A Digital Collection Built with CollectionBuilder
-# description appears in meta tags and other locations
-description: "A digital collection created using CollectionBuilder."
-# keywords separated by semicolons
-keywords: digital collection; archive; history
-# creator of the digital collection
+description: "A digital collection of punk flyers and zines from archival collections."
+keywords: punk; archives; zines; flyers; digital collection
 author: Catherine Frank
 
 ##########
 # COLLECTION SETTINGS
 #
 # Name of CSV file in the _data folder (WITHOUT .csv)
-metadata: full_metadata.csv
+metadata: full_metadata
 
 ##########
 # ORGANIZATION SETTINGS
@@ -44,16 +39,11 @@ organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-blac
 organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
 
 ##########
-# ROBOTS EXCLUDE
-#
-# noindex: true 
-
-##########
 # BUILD SETTINGS
 #
 lib-assets: /assets/lib
 
-exclude: 
+exclude:
   - docs/
   - Rakefile
   - rakelib/
