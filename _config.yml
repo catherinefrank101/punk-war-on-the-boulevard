@@ -32,7 +32,7 @@ author: Catherine Frank
 # COLLECTION SETTINGS
 #
 # Name of CSV file in the _data folder (WITHOUT .csv)
-metadata: full_metadata
+metadata: full_metadata.csv
 
 ##########
 # ORGANIZATION SETTINGS
