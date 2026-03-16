@@ -1,12 +1,12 @@
-<!-- Bootstrap bundle JS -->
-<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/bootstrap.bundle.min.js"></script>
-<!-- load other js -->
-<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/lazysizes.min.js" async></script>
-{% if layout.gallery == true or page.gallery == true %}<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/spotlight.bundle.js" defer></script>{% endif %}
-{% if page.custom-foot or layout.custom-foot %}
-{%- assign page_feet = page.custom-foot | split: ";" -%}
-{%- assign layout_feet = layout.custom-foot | split: ";" -%}
-{%- assign feet = page_feet | concat: layout_feet -%}
-{% for f in feet %}{% include {{ f }} %}
-{% endfor %}
-{%- endif -%}
+<footer class="site-footer bg-light mt-auto">
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-md-8">
+                <p>{{ site.description }}</p>
+            </div>
+            <div class="col-md-4 text-md-right">
+                <p><a href="{{ site.source-code }}">Source Code</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
